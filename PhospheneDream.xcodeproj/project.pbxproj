@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0C66741A02CBF1000D7C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C66731A02CBF1000D7C0C /* AppDelegate.swift */; };
+		2F0C66761A02CBF1000D7C0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C66751A02CBF1000D7C0C /* ViewController.swift */; };
+		2F0C66781A02CBF1000D7C0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C66771A02CBF1000D7C0C /* Images.xcassets */; };
+		2F0C667B1A02CBF1000D7C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C66791A02CBF1000D7C0C /* Main.storyboard */; };
+		2F0C66871A02CBF1000D7C0C /* PhospheneDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C66861A02CBF1000D7C0C /* PhospheneDreamTests.swift */; };
+		2F0C66911A02CC15000D7C0C /* ImageFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C66901A02CC15000D7C0C /* ImageFilters.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F0C66811A02CBF1000D7C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F0C66661A02CBF0000D7C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F0C666D1A02CBF0000D7C0C;
+			remoteInfo = PhospheneDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F0C666E1A02CBF1000D7C0C /* PhospheneDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhospheneDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0C66721A02CBF1000D7C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0C66731A02CBF1000D7C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F0C66751A02CBF1000D7C0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F0C66771A02CBF1000D7C0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F0C667A1A02CBF1000D7C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F0C66801A02CBF1000D7C0C /* PhospheneDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhospheneDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0C66851A02CBF1000D7C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0C66861A02CBF1000D7C0C /* PhospheneDreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhospheneDreamTests.swift; sourceTree = "<group>"; };
+		2F0C66901A02CC15000D7C0C /* ImageFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilters.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F0C666B1A02CBF0000D7C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0C667D1A02CBF1000D7C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F0C66651A02CBF0000D7C0C = {
+			isa = PBXGroup;
+			children = (
+				2F0C66701A02CBF1000D7C0C /* PhospheneDream */,
+				2F0C66831A02CBF1000D7C0C /* PhospheneDreamTests */,
+				2F0C666F1A02CBF1000D7C0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F0C666F1A02CBF1000D7C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C666E1A02CBF1000D7C0C /* PhospheneDream.app */,
+				2F0C66801A02CBF1000D7C0C /* PhospheneDreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F0C66701A02CBF1000D7C0C /* PhospheneDream */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C66731A02CBF1000D7C0C /* AppDelegate.swift */,
+				2F0C66751A02CBF1000D7C0C /* ViewController.swift */,
+				2F0C66771A02CBF1000D7C0C /* Images.xcassets */,
+				2F0C66791A02CBF1000D7C0C /* Main.storyboard */,
+				2F0C66711A02CBF1000D7C0C /* Supporting Files */,
+				2F0C66901A02CC15000D7C0C /* ImageFilters.swift */,
+			);
+			path = PhospheneDream;
+			sourceTree = "<group>";
+		};
+		2F0C66711A02CBF1000D7C0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C66721A02CBF1000D7C0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F0C66831A02CBF1000D7C0C /* PhospheneDreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C66861A02CBF1000D7C0C /* PhospheneDreamTests.swift */,
+				2F0C66841A02CBF1000D7C0C /* Supporting Files */,
+			);
+			path = PhospheneDreamTests;
+			sourceTree = "<group>";
+		};
+		2F0C66841A02CBF1000D7C0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F0C66851A02CBF1000D7C0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F0C666D1A02CBF0000D7C0C /* PhospheneDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0C668A1A02CBF1000D7C0C /* Build configuration list for PBXNativeTarget "PhospheneDream" */;
+			buildPhases = (
+				2F0C666A1A02CBF0000D7C0C /* Sources */,
+				2F0C666B1A02CBF0000D7C0C /* Frameworks */,
+				2F0C666C1A02CBF0000D7C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhospheneDream;
+			productName = PhospheneDream;
+			productReference = 2F0C666E1A02CBF1000D7C0C /* PhospheneDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F0C667F1A02CBF1000D7C0C /* PhospheneDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0C668D1A02CBF1000D7C0C /* Build configuration list for PBXNativeTarget "PhospheneDreamTests" */;
+			buildPhases = (
+				2F0C667C1A02CBF1000D7C0C /* Sources */,
+				2F0C667D1A02CBF1000D7C0C /* Frameworks */,
+				2F0C667E1A02CBF1000D7C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F0C66821A02CBF1000D7C0C /* PBXTargetDependency */,
+			);
+			name = PhospheneDreamTests;
+			productName = PhospheneDreamTests;
+			productReference = 2F0C66801A02CBF1000D7C0C /* PhospheneDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F0C66661A02CBF0000D7C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Daniel Cloud";
+				TargetAttributes = {
+					2F0C666D1A02CBF0000D7C0C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2F0C667F1A02CBF1000D7C0C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2F0C666D1A02CBF0000D7C0C;
+					};
+				};
+			};
+			buildConfigurationList = 2F0C66691A02CBF0000D7C0C /* Build configuration list for PBXProject "PhospheneDream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F0C66651A02CBF0000D7C0C;
+			productRefGroup = 2F0C666F1A02CBF1000D7C0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F0C666D1A02CBF0000D7C0C /* PhospheneDream */,
+				2F0C667F1A02CBF1000D7C0C /* PhospheneDreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F0C666C1A02CBF0000D7C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0C66781A02CBF1000D7C0C /* Images.xcassets in Resources */,
+				2F0C667B1A02CBF1000D7C0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0C667E1A02CBF1000D7C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F0C666A1A02CBF0000D7C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0C66761A02CBF1000D7C0C /* ViewController.swift in Sources */,
+				2F0C66911A02CC15000D7C0C /* ImageFilters.swift in Sources */,
+				2F0C66741A02CBF1000D7C0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0C667C1A02CBF1000D7C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0C66871A02CBF1000D7C0C /* PhospheneDreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F0C66821A02CBF1000D7C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F0C666D1A02CBF0000D7C0C /* PhospheneDream */;
+			targetProxy = 2F0C66811A02CBF1000D7C0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F0C66791A02CBF1000D7C0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F0C667A1A02CBF1000D7C0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F0C66881A02CBF1000D7C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F0C66891A02CBF1000D7C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F0C668B1A02CBF1000D7C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PhospheneDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F0C668C1A02CBF1000D7C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PhospheneDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F0C668E1A02CBF1000D7C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhospheneDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhospheneDream.app/Contents/MacOS/PhospheneDream";
+			};
+			name = Debug;
+		};
+		2F0C668F1A02CBF1000D7C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhospheneDreamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhospheneDream.app/Contents/MacOS/PhospheneDream";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F0C66691A02CBF0000D7C0C /* Build configuration list for PBXProject "PhospheneDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0C66881A02CBF1000D7C0C /* Debug */,
+				2F0C66891A02CBF1000D7C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0C668A1A02CBF1000D7C0C /* Build configuration list for PBXNativeTarget "PhospheneDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0C668B1A02CBF1000D7C0C /* Debug */,
+				2F0C668C1A02CBF1000D7C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F0C668D1A02CBF1000D7C0C /* Build configuration list for PBXNativeTarget "PhospheneDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0C668E1A02CBF1000D7C0C /* Debug */,
+				2F0C668F1A02CBF1000D7C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F0C66661A02CBF0000D7C0C /* Project object */;
+}
